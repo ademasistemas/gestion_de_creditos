@@ -73,7 +73,3 @@ Para personalizar esta landing page:
 ## Licencia
 
 © 2025 Gestión de Créditos - Desarrollado por [ademasistemas.com](http://ademasistemas.com)
-
----
-
-**Nota**: Esta landing page está configurada para promocionar la oferta especial de junio 2025. Recuerda actualizar la información de precios y ofertas según corresponda.
