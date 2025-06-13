@@ -113,7 +113,7 @@
                 </div>
                 <div class="solution-image">
                     <picture>
-                        <source srcset="dashboard.pngy" type="image/webp">
+                        <source srcset="dashboard.png" type="image/webp">
                         <img src="/dashboard.png" alt="Vista del dashboard de Gestión de Créditos mostrando cuotas y clientes" loading="lazy">
                     </picture>
                 </div>
@@ -227,6 +227,111 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cómo instalo y accedo por primera vez a la aplicación?
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Una vez que la aplicación se instala, se crea un icono en el escritorio. Al abrirla por primera vez, se generará la base de datos y se proporcionará un superusuario y una contraseña iniciales. También se indicará un enlace (link) en el que se inició la aplicación. Debes copiar este enlace, pegarlo en un navegador web e ingresar el usuario y la contraseña proporcionados para acceder.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            ¿Cuáles son las secciones principales de la aplicación?
+                        </button>
+                    </h3>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p>Al ingresar a la aplicación, encontrarás cuatro secciones principales en la parte izquierda:</p>
+                            <ul>
+                                <li><strong>Clientes:</strong> Permite agregar y gestionar la información necesaria de los clientes.</li>
+                                <li><strong>Créditos:</strong> Aquí se generan y administran los créditos.</li>
+                                <li><strong>Calendario de vencimientos:</strong> Muestra un calendario detallado de los pagos pendientes.</li>
+                                <li><strong>Reporte general:</strong> Ubicado en la parte superior, ofrece una visión general de la información.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            ¿Cómo creo un cliente y una solicitud de crédito?
+                        </button>
+                    </h3>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Para crear un cliente, accede a la sección de "clientes", haz clic en "agregar cliente" e ingresa el documento y el nombre (por ejemplo, Pedro Carlos). Una vez guardado el cliente, puedes crear una nueva solicitud de crédito seleccionando al cliente. En la solicitud, puedes añadir un detalle (como "artículo entregado" o "dinero"), el importe del préstamo (por ejemplo, 100.000 pesos) y la cantidad de cuotas. También puedes configurar la periodicidad (mensual, quincenal, etc.) y la tasa de interés.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            ¿Qué sucede con una solicitud de crédito una vez configurada?
+                        </button>
+                    </h3>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Las solicitudes de crédito deben ser aprobadas. Mientras sea solo una solicitud, no se generará el crédito ni el calendario de vencimientos. Una vez que la solicitud se confirma y se autoriza, se genera el crédito.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            ¿Qué información puedo obtener una vez que se autoriza un crédito?
+                        </button>
+                    </h3>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Cuando un crédito es autorizado, se genera un PDF con el contrato. Este documento incluye los detalles del crédito, las cuotas, la periodicidad y el calendario de pagos. Puedes guardarlo e incluso añadir una firma. Además, al ingresar a la solicitud, podrás ver toda la información asociada, incluyendo una segunda hoja con el calendario de vencimientos para seguir el estado de los pagos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            ¿Cómo se gestionan y cobran las cuotas?
+                        </button>
+                    </h3>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            En la sección de "calendario de vencimientos", podrás ver un calendario general que organiza todos los préstamos en función de las cuotas a devolver. Para cobrar una cuota, simplemente selecciona la opción "cobrar cuota". Una vez que una cuota ha sido abonada, al ingresar al crédito correspondiente, se indicará la fecha en que fue pagada.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            ¿Qué información se muestra en los reportes generales?
+                        </button>
+                    </h3>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Los reportes generales te permiten ver un resumen de la información. Por ejemplo, podrás ver el monto total solicitado (como los 100.000 pesos del ejemplo) y el calendario de vencimientos detallado de cada cuota. Si una cuota ya ha sido cobrada, no se sumará al total pendiente, lo que te permite tener una visión clara y ordenada de la situación financiera.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            ¿Cuál es el principal beneficio de usar esta aplicación para un emprendimiento?
+                        </button>
+                    </h3>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            El principal beneficio es que la aplicación permite tener de forma ordenada y centralizada toda la información relacionada con tu emprendimiento de ventas a crédito y préstamos personales. Esto incluye la gestión de clientes, solicitudes de crédito, créditos aprobados, calendarios de pagos y reportes generales, lo que facilita el control total y la organización de tus operaciones financieras.
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     </section>
